@@ -16,7 +16,7 @@ public class PruebaArreglo {
     public static void main(String[] args) {
         int arr[] ={10,7,5,8,9};
         Arreglo.sumaLista(arr);
-        int matriz[][]={{1,5,6,3},{7,10,55,3},{9,7,1,5}};
+        int matriz[][]={{1,5,6,3},{7,1,5,3},{9,7,1,5}};
         Arreglo.buscarMayor(matriz);
         Arreglo.cuentaVocales("Ahora");
         Arreglo.cuantaCaracter("palabra", 'a');
